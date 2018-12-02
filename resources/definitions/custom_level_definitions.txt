@@ -1,0 +1,71 @@
+# Level 1
+# Harry Potter Level
+
+START_LEVEL
+level_name: Harry Potter
+ball_velocities:45,550 46,550
+background:image(background_images/voldemort.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/custom_block_definition1.txt
+blocks_start_x:25
+blocks_start_y:40
+row_height:60
+num_blocks:36
+START_BLOCKS
+-
+-
+zzzzzzzzzzzz
+llllllllllll
+zzzzzzzzzzzz
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Spiderman Level
+
+START_LEVEL
+level_name: Spider Man
+ball_velocities:45,550 46,550 47,550
+background:image(background_images/spiderman.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/custom_block_definition2.txt
+blocks_start_x:25
+blocks_start_y:40
+row_height:70
+num_blocks:31
+START_BLOCKS
+zzzzzzzzzzz
+zzzz----zzzz
+zzz------zzz
+zz--------zz
+z----------z
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Happy Level
+
+START_LEVEL
+level_name: Happy
+ball_velocities:30,550 45,550 46,550
+background:image(background_images/happy.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/custom_block_definition3.txt
+blocks_start_x:25
+blocks_start_y:40
+row_height:40
+num_blocks:30
+START_BLOCKS
+-
+-zzzzzzzzzz
+-zzzzzzzzzz
+-zzzzzzzzzz
+
+END_BLOCKS
+END_LEVEL
